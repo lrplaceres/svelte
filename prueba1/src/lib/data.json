@@ -1,0 +1,25 @@
+[
+	{
+		"category": "category#1",
+		"amount": 8
+		},
+	{
+		"category": "category#2",
+		"amount": 16
+	},
+	{
+		"category": "category#3",
+		"amount": 9.05
+	},
+	{
+		"category": "category#4",
+		"amount": 48
+	},
+    {
+		"category": "category#5",
+		"amount": 36.01
+	},{
+		"category": "category#6",
+		"amount": 10
+	}
+]
