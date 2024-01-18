@@ -1,25 +1,62 @@
 [
 	{
 		"category": "category#1",
-		"amount": 8
-		},
+		"amount": 8,
+		"file": "IMG-20220519-WA0006.jpg"
+	},
 	{
 		"category": "category#2",
-		"amount": 16
+		"amount": 16,
+		"file": "IMG-20220519-WA0006.jpg"
 	},
 	{
 		"category": "category#3",
-		"amount": 9.05
+		"amount": 9.05,
+		"file": "IMG-20220519-WA0006.jpg"
 	},
 	{
 		"category": "category#4",
-		"amount": 48
+		"amount": 48,
+		"file": "IMG-20220519-WA0006.jpg"
 	},
-    {
+	{
 		"category": "category#5",
-		"amount": 36.01
-	},{
+		"amount": 36.01,
+		"file": "IMG-20220519-WA0006.jpg"
+	},
+	{
 		"category": "category#6",
-		"amount": 10
+		"amount": 10,
+		"file": "IMG-20220519-WA0006.jpg"
+	},
+	{
+		"category": "category#1",
+		"amount": 8,
+		"file": "IMG-20220519-WA0006.jpg"
+	},
+	{
+		"category": "category#2",
+		"amount": 16,
+		"file": "IMG-20220519-WA0006.jpg"
+	},
+	{
+		"category": "category#3",
+		"amount": 9.05,
+		"file": "IMG-20220519-WA0006.jpg"
+	},
+	{
+		"category": "category#4",
+		"amount": 48,
+		"file": "IMG-20220519-WA0006.jpg"
+	},
+	{
+		"category": "category#5",
+		"amount": 36.01,
+		"file": "IMG-20220519-WA0006.jpg"
+	},
+	{
+		"category": "category#6",
+		"amount": 10,
+		"file": "IMG-20220519-WA0006.jpg"
 	}
 ]

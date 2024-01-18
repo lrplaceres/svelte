@@ -1,19 +1,20 @@
 import { PrismaClient } from '@prisma/client';
-import userData from '../src/lib/data.json' assert { type: 'json' };
+import costsData from '../src/lib/data.json' assert { type: 'json' };
 
 const prisma = new PrismaClient();
 
 async function main() {
 	console.log(`Start seeding ...`);
 
-	for (const p of userData) {
+	for (const p of costsData) {
 		const cost = await prisma.cost.create({
 			data: {
 				category: p.category,
-				amount: p.amount
+				amount: p.amount,
+				file: p.file
 			}
 		});
-		console.log(`Created user with id: ${cost.id}`);
+		console.log(`Created cost with id: ${cost.id}`);
 	}
 	console.log(`Seeding finished.`);
 }
